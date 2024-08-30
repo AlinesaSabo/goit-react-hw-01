@@ -1,0 +1,54 @@
+.wrapper {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.imgWrapper {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 100%;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.name {
+  color: black;
+  font-size: 25px;
+  margin: 10px 0 5px;
+}
+.tag {
+  color: gray;
+  margin: 0 0 10px;
+}
+
+.list {
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  list-style: none;
+  color: black;
+  width: 100%;
+  padding: 0;
+  margin: 20px 0 0;
+}
+
+.list li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 0.5px solid #ccc;
+}
+.list li span {
+  display: block;
+}
