@@ -1,0 +1,24 @@
+.list {
+  padding: 50px;
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  li {
+    background-color: azure;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px black;
+    img {
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
